@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>  <!-- Title of the HTML document -->
+    <link rel="stylesheet" href="./todo.css"> <!-- Link to an external CSS file -->
+</head>
+<body>
+    
+    <div class="container">   <!-- Main container -->
+      <h1>To-Do List</h1> <!-- Heading for the to-do list -->
+        
+            <!-- Input field for adding new tasks -->
+        <input type="text" id="taskInput" placeholder="Enter a task"> 
+
+        <button onclick="addTask()">Add Task</button>   <!-- Button to add a new task -->
+
+        <ul id="taskList"></ul>    <!-- Unordered list to display the tasks -->
+
+
+
+        <!--This code creates a simple To-Do List with an input field for adding tasks,
+             a button to add a task, and an unordered list (<ul>) to display the tasks. 
+                The JavaScript file (todo.js) will handle the functionality of adding tasks to the list.
+                 Additionally, there's a linked CSS file (todo.css) for styling the elements.-->
+
+
+    <script src="./todo.js"></script>      <!-- External JavaScript file -->
+</body>
+</html>

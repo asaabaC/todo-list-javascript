@@ -1,0 +1,74 @@
+/* Setting the font family, margin, padding, background image, and background color for the body */
+body {
+    font-family: Arial, sans-serif; /* Setting the font family */
+    margin: 0; /* Setting margin to 0 */
+    padding: 0; /* Setting padding to 0 */
+    background-image: url(./green-desk-with-stationery-smartphone-top-view_144627-24863.jpg); /* Setting the background image */
+    background-color: whitesmoke; /* Setting the background color */
+}
+
+/* Styling for the main container */
+.container {
+    max-width: 600px; /* Setting the maximum width of the container */
+    margin: 20px auto; /* Setting margin for center alignment */
+    min-height: 400px; /* Setting the minimum height */
+    padding: 30px; /* Setting padding */
+    background: transparent; /* Making the background transparent */
+    border: 2px solid #e6b7eca1; /* Setting border */
+    border-radius: 10px; /* Setting border radius */
+    backdrop-filter: blur(15px); /* Applying blur effect to the background */
+}
+
+/* Styling for the heading */
+h1 {
+    text-align: center; /* Center aligning the text */
+    margin-bottom: 36px; /* Setting margin bottom */
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: none; /* Removing default list style */
+    padding: 0; /* Setting padding to 0 */
+}
+
+/* Styling for completed tasks */
+.completed {
+    text-decoration: line-through; /* Applying line-through decoration */
+    color: #999; /* Changing color for completed tasks */
+}
+
+/* Styling for text input */
+input[type="text"] {
+    width: 70%; /* Setting width */
+    padding: 10px; /* Setting padding */
+    margin-bottom: 10px; /* Setting margin bottom */
+    border-radius: 1%; /* Setting border radius */
+}
+
+/* Styling for buttons */
+button {
+    padding: 10px 20px; /* Setting padding */
+    background-color: #f1f5f9; /* Setting background color */
+    color: #101010; /* Setting text color */
+    border: none; /* Removing border */
+    border-radius: 4px; /* Setting border radius */
+    cursor: pointer; /* Changing cursor to pointer */
+}
+
+/* Styling for button hover effect */
+button:hover {
+    background-color: #65a3f4; /* Changing background color on hover */
+}
+
+/* Styling for list items */
+li {
+    background-color: #f9f9f9; /* Setting background color */
+    padding: 10px; /* Setting padding */
+    margin-bottom: 5px; /* Setting margin bottom */
+    border-radius: 4px; /* Setting border radius */
+}
+
+
+
+/*This CSS file provides styles for various elements such as the body, container, heading, input fields, buttons, 
+and list items, ensuring the appearance of a neat and visually appealing to-do list interface.
